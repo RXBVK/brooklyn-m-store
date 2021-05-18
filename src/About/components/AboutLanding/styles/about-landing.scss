@@ -1,0 +1,42 @@
+@import "../../Utils/utils.scss";
+
+.about__landing {
+  height: 100vh;
+  background-image: url("https://lh3.googleusercontent.com/RaUyLYnS9A8somvKir0u9ICYIDjz58S6he7YfiEEe_YTSLpVOMgd9OKlJdx0QdWE9Jihkurhr8mJRKeXPyUm9wc6O_QH462qLBZ-91oDUneHasIabDt_rOXWPkPfs776f11du0IWquc68wntWVt8Z3RLX2CJUjf5JY_8W_H9z3F587LUUXa736BTl4RmG98SvjLSWo3Cdj0jF7XecXzpWBkl-fX1-ChtgRN-EemdslAoZ5E-Ez7aJiZFA3hfxPag7zBxiMMFDQux_tlmA-RyiaW-LjHzRuVCaalphLDhcQ-ChNf6jhFI4YIUCPvdt7pN8Q6_UIvcu6dxlNhBlGn3RH9fXyQR5zNkTaaPw5vlqipxT8VrqHMMjPFu_6QvcrZIb8Az6fQvCkh6whMNge9aK5P2J89yHc3m4r1AF6X6JY0siZb8BG06yYAYg34fIQzBFN6-jHkaRZ3ZpqnQSXvbubgN3tmR2VG5_jnLm-Evmisgc6Ot58bt5J395AfaIaB24wtwdBEqv3FVEcCzg_zrJ__hfFYc-aZwnn0fshGjVr_UyfMkIoYOmgt_N14QmRKNsLacYHCpqElwqhNgPYz-mm-TXNKYrxsENuLscf_suAEnxCBYHdG1u6YUzuKDqvVgdMSPrr-0pMqNZyjy9r5hkXiARWLIh91AtgOGT2UUbVvW-hq38zQSx6ASHO_NgX3--rnLfiMy8A8FScQQtKgmfYA=w1723-h969-no?authuser=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .about__landing-sidebox {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 370px;
+    width: 590px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    padding: 10px 40px;
+    .about__sidebox-header {
+      color: white;
+      font-family: "Merriweather", "Roboto";
+      font-weight: 100;
+      font-size: 36px;
+      letter-spacing: 1px;
+      padding-bottom: 40px;
+    }
+    .about__sidebox-button {
+      @include button;
+      font-family: "Merriweather", "Roboto";
+      background: rgba($orange, 0.6);
+      width: 200px;
+      height: 60px;
+      font-weight: 500;
+      transition: background-color 200ms linear;
+      &:hover {
+        background-color: $orange;
+      }
+    }
+  }
+}

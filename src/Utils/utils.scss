@@ -1,0 +1,16 @@
+$orange: #de5b05;
+$cream: #f7f7f7;
+
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin button {
+  font-size: 24px;
+  color: white;
+  background-color: $orange;
+  cursor: pointer;
+  border: inherit;
+}

@@ -1,0 +1,33 @@
+@import "../Utils/utils.scss";
+
+.main__navigation {
+  @include center;
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  a {
+    margin: 0 50px;
+    font-size: 20px;
+    color: black;
+    img {
+      height: 139px;
+    }
+  }
+  .main__navigation-text {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background-color: $orange;
+      transition: all 200ms linear;
+    }
+    &:hover:before {
+      width: 100%;
+    }
+  }
+}
