@@ -11,16 +11,14 @@ export default function About() {
     <>
       <AboutLanding />
       <AboutIntroduction />
-      {
-          aboutServicesSections.map((item, id) => {
-              return(
-                  <>
-                    <AboutServices item={item} id={id} />
-                    <DividerBlock height={80} />
-                  </>
-              )
-          })
-      }
+      {aboutServicesSections.map((item, id) => {
+        return (
+          <React.Fragment key={id}>
+            <AboutServices item={item} id={id} />
+            <DividerBlock height={80} />
+          </React.Fragment>
+        );
+      })}
     </>
   );
 }
