@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Switch, Route, NavLink } from "react-router-dom";
 import About from "../About/About";
 import Shop from "../Shop/Shop";
@@ -7,9 +7,22 @@ import Financing from "../Financing/Financing";
 import "./styles/navigation.css";
 
 export default function Navigation() {
+  const [mobileMenuOpened, setMobileMenuOpened] = useState(false);
   return (
     <>
-      <nav className="main__navigation">
+      <div
+        className={`main__navigation-burger ${
+          mobileMenuOpened ? "menu-opened" : ""
+        }`}
+        onClick={() => setMobileMenuOpened(!mobileMenuOpened)}
+      >
+        <div className="main__navigation-burger-top"></div>
+        <div className="main__navigation-burger-mid"></div>
+        <div className="main__navigation-burger-bot"></div>
+      </div>
+      <nav
+        className={`main__navigation ${mobileMenuOpened ? "nav-opened" : ""}`}
+      >
         <NavLink exact to="/">
           <li className="main__navigation-text">ABOUT</li>
         </NavLink>

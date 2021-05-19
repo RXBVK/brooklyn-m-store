@@ -2,17 +2,18 @@
 
 .about__services {
   @include center;
+  width: 100%;
   & > div {
     @include center;
   }
-  .about__services-text-container {
-    width: 100%;
-    .about__services-photo-container {
+  .about__services-photo-container {
+    width: 60%;
+    img {
       width: 100%;
-      img {
-        max-width: 60%;
-      }
     }
+  }
+  .about__services-text-container {
+    width: 40%;
     .about__services-text-container-limiter {
       width: 30%;
       @include center;
@@ -32,7 +33,14 @@
         font-size: 18px;
         height: 50px;
         width: 300px;
+        transition: transform 300ms ease-in;
+        &:hover {
+          transform: scale(1.04);
+        }
       }
     }
   }
+}
+
+@media (min-width: 1000px) {
 }

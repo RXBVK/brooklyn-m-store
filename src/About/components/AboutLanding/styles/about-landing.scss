@@ -6,16 +6,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   .about__landing-sidebox {
-    position: absolute;
-    top: 50%;
-    left: 2%;
-    transform: translateY(-50%);
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 370px;
-    width: 590px;
-    background-color: rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
     padding: 10px 40px;
     .about__sidebox-header {
@@ -38,5 +31,29 @@
         background-color: $orange;
       }
     }
+  }
+}
+
+@media (max-width: 900px) {
+  .about__landing {
+    @include center;
+  }
+  .about__landing-sidebox {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    height: 70vh;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 901px) {
+  .about__landing-sidebox {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    height: 370px;
+    width: 590px;
   }
 }
