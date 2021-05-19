@@ -1,40 +1,4 @@
 @import "../components/AboutLanding/styles/about-landing.scss";
 @import "../components/AboutIntroduction/styles/about-introduction.scss";
 @import "../components/AboutServices/styles/about-services.scss";
-
-.about__services {
-  @include center;
-  & > div {
-    @include center;
-  }
-  .about__services-text-container {
-    width: 100%;
-    .about__services-photo-container {
-      width: 100%;
-      img {
-        max-width: 60%;
-      }
-    }
-    .about__services-text-container-limiter {
-      width: 30%;
-      @include center;
-      flex-direction: column;
-      text-align: center;
-      h2 {
-        font-family: "Merryweather";
-        font-size: 36px;
-        font-weight: 100;
-        margin-bottom: 15px;
-      }
-      p {
-        margin: 40px 0;
-      }
-      button {
-        @include button;
-        font-size: 18px;
-        height: 50px;
-        width: 300px;
-      }
-    }
-  }
-}
+@import "../components/AboutReviews/styles//about-reviews.scss";
