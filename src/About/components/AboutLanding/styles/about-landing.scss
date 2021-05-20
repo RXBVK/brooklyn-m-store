@@ -17,7 +17,6 @@
       font-weight: 100;
       font-size: 36px;
       letter-spacing: 1px;
-      padding-bottom: 40px;
     }
     .about__sidebox-button {
       @include button;
@@ -44,6 +43,9 @@
     height: 70vh;
     align-items: center;
     text-align: center;
+    .about__sidebox-header {
+      margin-bottom: 120px;
+    }
   }
 }
 @media (min-width: 901px) {
@@ -55,5 +57,8 @@
     transform: translateY(-50%);
     height: 370px;
     width: 590px;
+    .about__sidebox-header {
+      margin-bottom: 40px;
+    }
   }
 }
