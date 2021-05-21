@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/brooklyn-m-store/static/css/main.1b493192.chunk.css",
-    "main.js": "/brooklyn-m-store/static/js/main.968ae601.chunk.js",
-    "main.js.map": "/brooklyn-m-store/static/js/main.968ae601.chunk.js.map",
+    "main.css": "/brooklyn-m-store/static/css/main.ac73e3d1.chunk.css",
+    "main.js": "/brooklyn-m-store/static/js/main.1c740dbd.chunk.js",
+    "main.js.map": "/brooklyn-m-store/static/js/main.1c740dbd.chunk.js.map",
     "runtime-main.js": "/brooklyn-m-store/static/js/runtime-main.2839569f.js",
     "runtime-main.js.map": "/brooklyn-m-store/static/js/runtime-main.2839569f.js.map",
     "static/js/2.c961a6ca.chunk.js": "/brooklyn-m-store/static/js/2.c961a6ca.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.e89158ab.chunk.js": "/brooklyn-m-store/static/js/3.e89158ab.chunk.js",
     "static/js/3.e89158ab.chunk.js.map": "/brooklyn-m-store/static/js/3.e89158ab.chunk.js.map",
     "index.html": "/brooklyn-m-store/index.html",
-    "static/css/main.1b493192.chunk.css.map": "/brooklyn-m-store/static/css/main.1b493192.chunk.css.map",
+    "static/css/main.ac73e3d1.chunk.css.map": "/brooklyn-m-store/static/css/main.ac73e3d1.chunk.css.map",
     "static/js/2.c961a6ca.chunk.js.LICENSE.txt": "/brooklyn-m-store/static/js/2.c961a6ca.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2839569f.js",
     "static/js/2.c961a6ca.chunk.js",
-    "static/css/main.1b493192.chunk.css",
-    "static/js/main.968ae601.chunk.js"
+    "static/css/main.ac73e3d1.chunk.css",
+    "static/js/main.1c740dbd.chunk.js"
   ]
 }
