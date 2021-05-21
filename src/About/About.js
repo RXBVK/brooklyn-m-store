@@ -15,7 +15,7 @@ export default function About() {
       <AboutIntroduction />
       {aboutServicesSections.map((item, id) => {
         return (
-          <React.Fragment>
+          <React.Fragment key={id}>
             <AboutServices item={item} id={id} />
             <DividerBlock height={80} />
           </React.Fragment>
