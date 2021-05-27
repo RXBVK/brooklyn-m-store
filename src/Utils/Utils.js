@@ -67,3 +67,18 @@ export const aboutReviewsTexts = [
   "The new owner bought Y2K and it's great that he did. The people there are much more knowledgable and personable, and they got my bike done super fast.",
   "Great Service! Ordered and installed brakes and new grips same day at no additional charge!",
 ];
+
+export const financingLandingPoints = [
+  {
+    header: "PASSION",
+    text: "At Brooklyn Mayd, we are powersports enthusiasts, and there's nothing we enjoy more than helping our customers find the kind of fun and adventure that a quality motorcycle or other powersports vehicle can bring.",
+  },
+  {
+    header: "CARE",
+    text: " If you're considering financing a pre-owned powersports vehicle, you're in good hands with our finance department. We are thrilled to get the opportunity to help you set up a financing plan that gets you out on the road and into the outdoors as soon as possible in the Brooklyn area.",
+  },
+  {
+    header: "ABILITY",
+    text: "Our knowledgeable finance staff is here to make the process of purchasing a pre-owned motorcycle or other powersports vehicle easy, so don't put off your dreams. To get a quote, apply now. Our staff will contact you about our available financing options.",
+  },
+];
