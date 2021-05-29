@@ -48,7 +48,7 @@ export default function FinancingCalculator() {
             id="rateOrAPR"
             onChange={(e) => setRateOrAPR(e.target.value)}
           />
-          <label for="rateOrAPR">Down Payment or Trade-In Value</label>
+          <label for="downPayment">Down Payment or Trade-In Value</label>
           <input
             type="number"
             value={downPayment}
