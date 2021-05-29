@@ -20,34 +20,39 @@ export default function FinancingCalculator() {
       <div className="financing__calculator-content">
         <div className="financing__calculator-content-form">
           <h3>Calculate Payment</h3>
-          <label>Desired Vehicle Price</label>
+          <label for="desiredVehiclePrice">Desired Vehicle Price</label>
           <input
             type="number"
             value={desiredVehiclePrice}
+            id="desiredVehiclePrice"
             onChange={(e) => setDesiredVehiclePrice(e.target.value)}
           />
-          <label>Sales Tax</label>
+          <label for="salesTax">Sales Tax</label>
           <input
             type="number"
             value={salesTax}
+            id="salesTax"
             onChange={(e) => setSalesTax(e.target.value)}
           />
-          <label>Term in Months</label>
+          <label for="termInMonths">Term in Months</label>
           <input
             type="number"
             value={termInMonths}
+            id="termInMonths"
             onChange={(e) => setTermInMonths(e.target.value)}
           />
-          <label>Rate / APR</label>
+          <label for="rateOrAPR">Rate / APR</label>
           <input
             type="number"
             value={rateOrAPR}
+            id="rateOrAPR"
             onChange={(e) => setRateOrAPR(e.target.value)}
           />
-          <label>Down Payment or Trade-In Value</label>
+          <label for="rateOrAPR">Down Payment or Trade-In Value</label>
           <input
             type="number"
             value={downPayment}
+            id="downPayment"
             onChange={(e) => setDownPayment(e.target.value)}
           />
         </div>

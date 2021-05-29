@@ -20,7 +20,7 @@ export default function Navigation() {
         <div className="main__navigation-burger-mid"></div>
         <div className="main__navigation-burger-bot"></div>
       </div>
-      <nav
+      <ul
         className={`main__navigation ${mobileMenuOpened ? "nav-opened" : ""}`}
       >
         <NavLink exact to="/">
@@ -43,7 +43,7 @@ export default function Navigation() {
         <NavLink exact to="/financing">
           <li className="main__navigation-text">FINANCING</li>
         </NavLink>
-      </nav>
+      </ul>
       <Switch>
         <Route exact path="/">
           <About />
