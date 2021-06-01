@@ -4,6 +4,7 @@ import About from "../About/About";
 import Shop from "../Shop/Shop";
 import ServiceAndParts from "../ServiceAndParts/ServiceAndParts";
 import Financing from "../Financing/Financing";
+import Contact from "../Contact/Contact";
 import "./styles/navigation.css";
 
 export default function Navigation() {
@@ -56,6 +57,9 @@ export default function Navigation() {
         </Route>
         <Route exact path="/financing">
           <Financing />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
         </Route>
         {/* <Route>
                         <NotFound />
