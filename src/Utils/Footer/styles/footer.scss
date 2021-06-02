@@ -1,4 +1,4 @@
-@import "../../../../Utils/utils.scss";
+@import "../../utils.scss";
 
 .footer {
   display: flex;
@@ -10,11 +10,13 @@
     font-weight: 700;
     text-shadow: 1px 0px black;
     letter-spacing: 2px;
+    text-align: center;
   }
   h4 {
     font-weight: 700;
     text-shadow: 1px 0px black;
     letter-spacing: 2px;
+    text-align: center;
   }
 }
 
