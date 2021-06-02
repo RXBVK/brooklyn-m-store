@@ -42,12 +42,23 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .financing__landing {
     h1 {
-      padding-top: 100px;
+      padding-top: 50px;
     }
   }
+}
+
+@media (min-width: 901px) {
+  .financing__landing {
+    h1 {
+      padding-top: 184px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
   .financing__landing-point {
     display: flex;
     flex-direction: column;
@@ -64,11 +75,6 @@
 }
 
 @media (min-width: 801px) {
-  .financing__landing {
-    h1 {
-      padding-top: 184px;
-    }
-  }
   .financing__landing-point {
     @include center;
     .financing__landing-point-header {

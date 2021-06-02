@@ -30,31 +30,55 @@ export default function Contact() {
                 </div>
                 <div id="questions-wrap">
                   <label htmlFor="questions">Comments/Questions</label>
-                  <input type="text" id="questions" />
+                  <textarea id="questions" />
                 </div>
               </div>
               <button type="submit">Submit</button>
             </form>
           </div>
           <div className="contact__content-socials">
-            <h2>Find Us On Social Media</h2>
+            <h3>Find Us On Social Media</h3>
             <div className="contact__content-socials-icons">
-              <img
-                src="https://drive.google.com/uc?export=view&id=1-kmF-3BqPkSbelIq9Ig3JPllyjkf2xG1"
-                alt="facebook"
-              />
-              <img
-                src="https://drive.google.com/uc?export=view&id=1qPeEYNgIbv_Y_Tkuf_ySOtbvF8z7X2tx"
-                alt="instagram"
-              />
-              <img
-                src="https://drive.google.com/uc?export=view&id=1scIW-RtJ2lES8kZGNFW2PGq_Jq1xb4xC"
-                alt="youtube"
-              />
-              <img
-                src="https://drive.google.com/uc?export=view&id=1OeAAGw6lJc5o80c9CwEpy6YOd6F5GP2h"
-                alt="twitter"
-              />
+              <a
+                href="https://www.facebook.com/Brooklyn-MAYD-Powersports-411541879008638/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1-kmF-3BqPkSbelIq9Ig3JPllyjkf2xG1"
+                  alt="facebook"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/brooklynmayd_inc/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1qPeEYNgIbv_Y_Tkuf_ySOtbvF8z7X2tx"
+                  alt="instagram"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCYo4ucnJUwO-klddf5G9a0g"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1scIW-RtJ2lES8kZGNFW2PGq_Jq1xb4xC"
+                  alt="youtube"
+                />
+              </a>
+              <a
+                href="https://twitter.com/katbybrooklynm1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="https://drive.google.com/uc?export=view&id=1OeAAGw6lJc5o80c9CwEpy6YOd6F5GP2h"
+                  alt="twitter"
+                />
+              </a>
             </div>
           </div>
         </div>
