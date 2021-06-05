@@ -114,6 +114,15 @@
   }
 }
 
+@media (min-width: 451px) {
+  .contact__content-socials-icons {
+    img {
+      width: 180px;
+      height: 180px;
+    }
+  }
+}
+
 @media (max-width: 650px) {
   .contact__content-form {
     width: 100%;
