@@ -68,7 +68,6 @@
   .about__landing-sidebox {
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
-    top: 50%;
     left: 2%;
     transform: translateY(-50%);
     height: 370px;
@@ -76,5 +75,17 @@
     .about__sidebox-header {
       margin-bottom: 40px;
     }
+  }
+}
+
+@media (min-height: 701px) {
+  .about__landing-sidebox {
+    top: 50%;
+  }
+}
+
+@media (max-height: 700px) {
+  .about__landing-sidebox {
+    top: 65%;
   }
 }
