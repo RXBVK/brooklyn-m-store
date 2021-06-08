@@ -1,9 +1,6 @@
 @import "../../Utils/utils.scss";
 
 .main__navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   width: 100%;
   padding: 20px 0;
   position: absolute;
@@ -39,6 +36,9 @@
     z-index: 1000;
     position: fixed;
     background-color: $cream;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
     height: 100%;
     transform: translateX(100%);
@@ -80,8 +80,54 @@
   }
 }
 
+@media (min-width: 901px) and (max-width: 1250px) {
+  .main__navigation {
+    & :nth-child(1) {
+      left: 10%;
+    }
+    & :nth-child(2) {
+      left: 30%;
+    }
+    & :nth-child(3) {
+      left: 50%;
+    }
+    & :nth-child(4) {
+      left: 70%;
+    }
+    & :nth-child(5) {
+      left: 90%;
+    }
+  }
+}
+
+@media (min-width: 1251px) {
+  .main__navigation {
+    & :nth-child(1) {
+      left: 20%;
+    }
+    & :nth-child(2) {
+      left: 35%;
+    }
+    & :nth-child(3) {
+      left: 50%;
+    }
+    & :nth-child(4) {
+      left: 65%;
+    }
+    & :nth-child(5) {
+      left: 80%;
+    }
+  }
+}
+
 @media (min-width: 901px) {
   .main__navigation {
+    height: 160px;
+    & > a {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
     a {
       font-size: 20px;
     }
