@@ -14,15 +14,13 @@ export default function AboutIntroduction() {
         </p>
       </div>
       <div className="about__introduction-items">
-        {aboutIntroductionCards.map((card, id) => {
-          return (
-            <div className="about__introduction-item" key={id}>
-              <img src={card.icon} alt="meaningless icon" />
-              <Divider width={100} height={1} />
-              <p>{card.text}</p>
-            </div>
-          );
-        })}
+        {aboutIntroductionCards.map((card, id) => (
+          <div className="about__introduction-item" key={id}>
+            <img src={card.icon} alt="meaningless icon" />
+            <Divider width={100} height={1} />
+            <p>{card.text}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
