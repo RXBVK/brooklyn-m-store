@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import SingleReview from "./SingleReview";
 import Divider from "../../../Utils/Divider";
 import { aboutReviewsTexts } from "../../../Utils/Utils";
-import "./styles/about-reviews.css";
 
 export default function AboutReviews() {
   const [users, setUsers] = useState([]);

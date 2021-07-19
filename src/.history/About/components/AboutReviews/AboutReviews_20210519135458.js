@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import SingleReview from "./SingleReview";
 import Divider from "../../../Utils/Divider";
 import { aboutReviewsTexts } from "../../../Utils/Utils";
-import "./styles/about-reviews.css";
 
 export default function AboutReviews() {
   const [users, setUsers] = useState([]);
@@ -42,9 +41,9 @@ export default function AboutReviews() {
       </div>
       <Divider width={10} height={1} />
       <div className="about__reviews-content">
-        {users.map((user, id) => (
-          <SingleReview user={user} key={id} />
-        ))}
+        {users.map((user, id) => {
+          return <SingleReview user={user} key={id} />;
+        })}
       </div>
     </div>
   );

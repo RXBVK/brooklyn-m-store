@@ -1,6 +1,7 @@
 import React from "react";
 import { aboutIntroductionCards } from "../../../Utils/Utils";
 import Divider from "../../../Utils/Divider";
+import "./styles/about-introduction.css";
 
 export default function AboutIntroduction() {
   return (

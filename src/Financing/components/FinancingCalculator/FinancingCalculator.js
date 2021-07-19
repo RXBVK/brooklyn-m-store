@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./styles/financing-calculator.css";
 
 export default function FinancingCalculator() {
   const [desiredVehiclePrice, setDesiredVehiclePrice] = useState(0);

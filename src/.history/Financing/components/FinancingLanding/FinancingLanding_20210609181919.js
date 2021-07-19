@@ -1,7 +1,6 @@
 import React from "react";
 import SinglePoint from "./SinglePoint";
 import { financingLandingPoints } from "../../../Utils/Utils";
-import "./styles/financing-landing.css";
 
 export default function FinancingLanding() {
   return (

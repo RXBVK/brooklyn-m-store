@@ -1,6 +1,7 @@
 import React from "react";
 import Divider from "../../../Utils/Divider";
 import { useHistory } from "react-router-dom";
+import "./styles/about-services.css";
 
 export default function AboutServices(props) {
   let history = useHistory();

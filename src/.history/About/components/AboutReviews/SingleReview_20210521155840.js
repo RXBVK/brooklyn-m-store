@@ -8,13 +8,15 @@ export default function SingleReview({ user }) {
       </div>
       <div className="about__review-content">
         <div className="about__review-content-stars">
-          {user.stars.map((star, id) => (
-            <img
-              src="https://drive.google.com/uc?export=view&id=15Up1Zwqq77DCN5qIn3fQjbrLWia-zIE_"
-              alt="review-star"
-              key={id}
-            />
-          ))}
+          {user.stars.map((star, id) => {
+            return (
+              <img
+                src="https://drive.google.com/uc?export=view&id=15Up1Zwqq77DCN5qIn3fQjbrLWia-zIE_"
+                alt="review-star"
+                key={id}
+              />
+            );
+          })}
         </div>
         <p>{`,,${user.review}''`}</p>
         <h3>{`${user.name.first} ${user.name.last}`}</h3>
