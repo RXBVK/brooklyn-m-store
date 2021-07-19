@@ -6,6 +6,7 @@ import ServiceAndParts from "../ServiceAndParts/ServiceAndParts";
 import Financing from "../Financing/Financing";
 import Contact from "../Contact/Contact";
 import "./styles/navigation.css";
+import logo from "../assets/images/logo-big.png";
 
 export default function Navigation() {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false);
@@ -33,7 +34,8 @@ export default function Navigation() {
         <NavLink exact to="/">
           <li>
             <img
-              src="https://drive.google.com/uc?export=view&id=1bwrfRFuekPI4i7lBFgxU0OD5euzfOytN"
+              //src="https://drive.google.com/uc?export=view&id=1bwrfRFuekPI4i7lBFgxU0OD5euzfOytN"
+              src={logo}
               alt="brooklyn mayd logo"
             ></img>
           </li>
