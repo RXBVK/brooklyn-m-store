@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/brooklyn-m-store/static/css/main.da61262b.chunk.css",
-    "main.js": "/brooklyn-m-store/static/js/main.b0f3b1bd.chunk.js",
-    "main.js.map": "/brooklyn-m-store/static/js/main.b0f3b1bd.chunk.js.map",
-    "runtime-main.js": "/brooklyn-m-store/static/js/runtime-main.c57955d5.js",
-    "runtime-main.js.map": "/brooklyn-m-store/static/js/runtime-main.c57955d5.js.map",
-    "static/js/2.f6a05534.chunk.js": "/brooklyn-m-store/static/js/2.f6a05534.chunk.js",
-    "static/js/2.f6a05534.chunk.js.map": "/brooklyn-m-store/static/js/2.f6a05534.chunk.js.map",
-    "static/js/3.ec4e6677.chunk.js": "/brooklyn-m-store/static/js/3.ec4e6677.chunk.js",
-    "static/js/3.ec4e6677.chunk.js.map": "/brooklyn-m-store/static/js/3.ec4e6677.chunk.js.map",
+    "main.css": "/brooklyn-m-store/static/css/main.ecc87746.chunk.css",
+    "main.js": "/brooklyn-m-store/static/js/main.2f80e4cc.chunk.js",
+    "main.js.map": "/brooklyn-m-store/static/js/main.2f80e4cc.chunk.js.map",
+    "runtime-main.js": "/brooklyn-m-store/static/js/runtime-main.4560cfaf.js",
+    "runtime-main.js.map": "/brooklyn-m-store/static/js/runtime-main.4560cfaf.js.map",
+    "static/js/2.b459ec25.chunk.js": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js",
+    "static/js/2.b459ec25.chunk.js.map": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js.map",
+    "static/js/3.0896e7a3.chunk.js": "/brooklyn-m-store/static/js/3.0896e7a3.chunk.js",
+    "static/js/3.0896e7a3.chunk.js.map": "/brooklyn-m-store/static/js/3.0896e7a3.chunk.js.map",
     "index.html": "/brooklyn-m-store/index.html",
-    "static/css/main.da61262b.chunk.css.map": "/brooklyn-m-store/static/css/main.da61262b.chunk.css.map",
-    "static/js/2.f6a05534.chunk.js.LICENSE.txt": "/brooklyn-m-store/static/js/2.f6a05534.chunk.js.LICENSE.txt"
+    "static/css/main.ecc87746.chunk.css.map": "/brooklyn-m-store/static/css/main.ecc87746.chunk.css.map",
+    "static/js/2.b459ec25.chunk.js.LICENSE.txt": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js.LICENSE.txt",
+    "static/media/about-landing.css": "/brooklyn-m-store/static/media/harley-davidson-background.70e5c8fb.jpg",
+    "static/media/logo-big.599e7929.png": "/brooklyn-m-store/static/media/logo-big.599e7929.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c57955d5.js",
-    "static/js/2.f6a05534.chunk.js",
-    "static/css/main.da61262b.chunk.css",
-    "static/js/main.b0f3b1bd.chunk.js"
+    "static/js/runtime-main.4560cfaf.js",
+    "static/js/2.b459ec25.chunk.js",
+    "static/css/main.ecc87746.chunk.css",
+    "static/js/main.2f80e4cc.chunk.js"
   ]
 }
