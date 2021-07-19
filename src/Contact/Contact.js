@@ -1,6 +1,10 @@
 import React from "react";
 import "./styles/contact.css";
 import Footer from "../Utils/Footer/Footer";
+import facebook from "../assets/images/facebook_180.png";
+import instagram from "../assets/images/instagram_180.png";
+import youtube from "../assets/images/youtube_180.png";
+import twitter from "../assets/images/twitter_180.png";
 
 export default function Contact() {
   return (
@@ -45,7 +49,8 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 <img
-                  src="https://drive.google.com/uc?export=view&id=1-kmF-3BqPkSbelIq9Ig3JPllyjkf2xG1"
+                  //src="https://drive.google.com/uc?export=view&id=1-kmF-3BqPkSbelIq9Ig3JPllyjkf2xG1"
+                  src={facebook}
                   alt="facebook"
                 />
               </a>
@@ -55,7 +60,8 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 <img
-                  src="https://drive.google.com/uc?export=view&id=1qPeEYNgIbv_Y_Tkuf_ySOtbvF8z7X2tx"
+                  //src="https://drive.google.com/uc?export=view&id=1qPeEYNgIbv_Y_Tkuf_ySOtbvF8z7X2tx"
+                  src={instagram}
                   alt="instagram"
                 />
               </a>
@@ -65,7 +71,8 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 <img
-                  src="https://drive.google.com/uc?export=view&id=1scIW-RtJ2lES8kZGNFW2PGq_Jq1xb4xC"
+                  //src="https://drive.google.com/uc?export=view&id=1scIW-RtJ2lES8kZGNFW2PGq_Jq1xb4xC"
+                  src={youtube}
                   alt="youtube"
                 />
               </a>
@@ -75,7 +82,8 @@ export default function Contact() {
                 rel="noreferrer"
               >
                 <img
-                  src="https://drive.google.com/uc?export=view&id=1OeAAGw6lJc5o80c9CwEpy6YOd6F5GP2h"
+                  //src="https://drive.google.com/uc?export=view&id=1OeAAGw6lJc5o80c9CwEpy6YOd6F5GP2h"
+                  src={twitter}
                   alt="twitter"
                 />
               </a>

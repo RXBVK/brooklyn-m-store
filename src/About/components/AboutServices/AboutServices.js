@@ -2,6 +2,10 @@ import React from "react";
 import Divider from "../../../Utils/Divider";
 import { useHistory } from "react-router-dom";
 import "./styles/about-services.css";
+import storeImage from "../../../assets/images/store-image.jpg";
+import serviceImage from "../../../assets/images/service-image.jpg";
+import financingImage from "../../../assets/images/financing-image.jpg";
+const images = [storeImage, serviceImage, financingImage];
 
 export default function AboutServices(props) {
   let history = useHistory();
@@ -13,7 +17,7 @@ export default function AboutServices(props) {
   return props.id % 2 === 0 ? (
     <div className="about__services">
       <div className="about__services-photo-container">
-        <img src={props.item.image} alt={props.item.header} />
+        <img src={images[props.id]} alt={props.item.header} />
       </div>
       <div className="about__services-text-container">
         <div className="about__services-text-container-limiter">
@@ -39,7 +43,7 @@ export default function AboutServices(props) {
         </div>
       </div>
       <div className="about__services-photo-container">
-        <img src={props.item.image} alt={props.item.header} />
+        <img src={images[props.id]} alt={props.item.header} />
       </div>
     </div>
   );

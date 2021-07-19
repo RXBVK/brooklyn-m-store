@@ -1,4 +1,5 @@
 import React from "react";
+import starIcon from "../../../assets/images/star.png";
 
 export default function SingleReview({ user }) {
   return (
@@ -10,7 +11,8 @@ export default function SingleReview({ user }) {
         <div className="about__review-content-stars">
           {user.stars.map((star, id) => (
             <img
-              src="https://drive.google.com/uc?export=view&id=15Up1Zwqq77DCN5qIn3fQjbrLWia-zIE_"
+              //src="https://drive.google.com/uc?export=view&id=15Up1Zwqq77DCN5qIn3fQjbrLWia-zIE_"
+              src={starIcon}
               alt="review-star"
               key={id}
             />

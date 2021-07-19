@@ -2,6 +2,10 @@ import React from "react";
 import { aboutIntroductionCards } from "../../../Utils/Utils";
 import Divider from "../../../Utils/Divider";
 import "./styles/about-introduction.css";
+import motorbike from "../../../assets/images/motorbike.png";
+import speechBubble from "../../../assets/images/speech-bubble.png";
+import handshake from "../../../assets/images/handshake.png";
+const icons = [motorbike, speechBubble, handshake];
 
 export default function AboutIntroduction() {
   return (
@@ -17,7 +21,7 @@ export default function AboutIntroduction() {
       <div className="about__introduction-items">
         {aboutIntroductionCards.map((card, id) => (
           <div className="about__introduction-item" key={id}>
-            <img src={card.icon} alt="meaningless icon" />
+            <img src={icons[id]} alt="meaningless icon" />
             <Divider width={100} height={1} />
             <p>{card.text}</p>
           </div>

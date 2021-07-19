@@ -1,38 +1,35 @@
 export const aboutIntroductionCards = [
   {
-    icon: "https://drive.google.com/uc?export=view&id=1YiQPupyU44tfBx8lMT2xcq9Gu5LJaKIR",
+    //icon: "https://drive.google.com/uc?export=view&id=1YiQPupyU44tfBx8lMT2xcq9Gu5LJaKIR",
     text: "We are a powersports dealership serving the Brooklyn area, offering the best in pre-owned motorcycle and other powersports vehicles.",
   },
   {
-    icon: "https://drive.google.com/uc?export=view&id=1Hl1fZMCn7JZS8JccJzvFtCq1N3irnxFh",
+    //icon: "https://drive.google.com/uc?export=view&id=1Hl1fZMCn7JZS8JccJzvFtCq1N3irnxFh",
     text: "Our friendly and knowledgeable sales, financing, service, and parts departments are ready to offer outstanding service at every point, from assisting while you're making your choice to ongoing maintenance and customization.",
   },
   {
-    icon: "https://drive.google.com/uc?export=view&id=1PbsDp_b30O4pFx3-j80ZapCbsgveqq3K",
+    //icon: "https://drive.google.com/uc?export=view&id=1PbsDp_b30O4pFx3-j80ZapCbsgveqq3K",
     text: "At Brooklyn Mayd, we value the opportunity to create a long-term relationship with our customers, and we do that by making sure to exceed your expectations.",
   },
 ];
 
 export const aboutServicesSections = [
   {
-    image:
-      "https://drive.google.com/uc?export=view&id=1kgBfr_N5wqnhIG7BNde-PrzZnCZhO9dI",
+    //image: "https://drive.google.com/uc?export=view&id=1kgBfr_N5wqnhIG7BNde-PrzZnCZhO9dI",
     header: "Store",
     text: "In our store you will be able to purchase any kind of a powersports vehicle, from urban scooters to classic motorcycles.",
     button: "SHOP NOW",
     buttonLink: "/shop",
   },
   {
-    image:
-      "https://drive.google.com/uc?export=view&id=1qmaai_IpKVWZNYlUu-qIaHpmJWwlLRuO",
+    //image: "https://drive.google.com/uc?export=view&id=1qmaai_IpKVWZNYlUu-qIaHpmJWwlLRuO",
     header: "Servicing & Parts",
     text: "Our highly trained technicians are dedicated to maintaining and servicing your powersports vehicle so you can get the most out of your purchase.",
     button: "SERVICE",
     buttonLink: "/service-and-parts",
   },
   {
-    image:
-      "https://drive.google.com/uc?export=view&id=1edzxTAE599Qlhcmn-Pfzl2hE3Tys9HgZ",
+    //image: "https://drive.google.com/uc?export=view&id=1edzxTAE599Qlhcmn-Pfzl2hE3Tys9HgZ",
     header: "Financing",
     text: "We will be more than happy to help you set up a financing plan that will help you get your vehicle as soon as possible.",
     button: "FINANCE",
