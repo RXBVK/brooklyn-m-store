@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brooklyn-m-store/static/css/main.ecc87746.chunk.css",
-    "main.js": "/brooklyn-m-store/static/js/main.2f80e4cc.chunk.js",
-    "main.js.map": "/brooklyn-m-store/static/js/main.2f80e4cc.chunk.js.map",
+    "main.js": "/brooklyn-m-store/static/js/main.c911bb0f.chunk.js",
+    "main.js.map": "/brooklyn-m-store/static/js/main.c911bb0f.chunk.js.map",
     "runtime-main.js": "/brooklyn-m-store/static/js/runtime-main.4560cfaf.js",
     "runtime-main.js.map": "/brooklyn-m-store/static/js/runtime-main.4560cfaf.js.map",
     "static/js/2.b459ec25.chunk.js": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js",
@@ -12,13 +12,16 @@
     "index.html": "/brooklyn-m-store/index.html",
     "static/css/main.ecc87746.chunk.css.map": "/brooklyn-m-store/static/css/main.ecc87746.chunk.css.map",
     "static/js/2.b459ec25.chunk.js.LICENSE.txt": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js.LICENSE.txt",
+    "static/media/financing-image.67dd960d.jpg": "/brooklyn-m-store/static/media/financing-image.67dd960d.jpg",
     "static/media/about-landing.css": "/brooklyn-m-store/static/media/harley-davidson-background.70e5c8fb.jpg",
-    "static/media/logo-big.599e7929.png": "/brooklyn-m-store/static/media/logo-big.599e7929.png"
+    "static/media/logo-big.599e7929.png": "/brooklyn-m-store/static/media/logo-big.599e7929.png",
+    "static/media/service-image.9a9f36df.jpg": "/brooklyn-m-store/static/media/service-image.9a9f36df.jpg",
+    "static/media/store-image.7386dd0d.jpg": "/brooklyn-m-store/static/media/store-image.7386dd0d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4560cfaf.js",
     "static/js/2.b459ec25.chunk.js",
     "static/css/main.ecc87746.chunk.css",
-    "static/js/main.2f80e4cc.chunk.js"
+    "static/js/main.c911bb0f.chunk.js"
   ]
 }
