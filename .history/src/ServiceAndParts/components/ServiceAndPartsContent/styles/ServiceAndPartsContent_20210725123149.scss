@@ -1,0 +1,21 @@
+@import "../../../../Utils/utils.scss";
+
+.sap__content-container {
+  background-color: white;
+  min-height: 100vh;
+  @include center;
+  flex-direction: column;
+  .sap__content-menu {
+    display: flex;
+    border-bottom: 3px solid $orange;
+    width: 100%;
+    button {
+      width: 100%;
+      height: 50px;
+      background-color: $cream;
+      border: none;
+      font-size: 22px;
+      font-weight: 300;
+    }
+  }
+}

@@ -79,21 +79,3 @@ export const financingLandingPoints = [
     text: "Our knowledgeable finance staff is here to make the process of purchasing a pre-owned motorcycle or other powersports vehicle easy, so don't put off your dreams. To get a quote, apply now. Our staff will contact you about our available financing options.",
   },
 ];
-
-export const serviceAndPartsCards = [
-  {
-    header: "Parts",
-    content:
-      "We offer a huge variety of parts for you to take care of your powersports vehicle. If we don’t have it in stock, we’ll be happy to order it in the Brooklyn area.",
-  },
-  {
-    header: "Service",
-    content:
-      "Our highly skilled team will help you keep your motorcycle in it’s best condition. You can always count on us!",
-  },
-  {
-    header: "Customization",
-    content:
-      "If you’re not pleased with looks of your vehicle, or you just simply want it to look the best it could, come to us. We’ll carefully listen to your expectations and help you realize your idea.",
-  },
-];
