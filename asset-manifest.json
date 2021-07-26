@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/brooklyn-m-store/static/css/main.ecc87746.chunk.css",
-    "main.js": "/brooklyn-m-store/static/js/main.c911bb0f.chunk.js",
-    "main.js.map": "/brooklyn-m-store/static/js/main.c911bb0f.chunk.js.map",
-    "runtime-main.js": "/brooklyn-m-store/static/js/runtime-main.4560cfaf.js",
-    "runtime-main.js.map": "/brooklyn-m-store/static/js/runtime-main.4560cfaf.js.map",
+    "main.css": "/brooklyn-m-store/static/css/main.27471434.chunk.css",
+    "main.js": "/brooklyn-m-store/static/js/main.87d0b9b1.chunk.js",
+    "main.js.map": "/brooklyn-m-store/static/js/main.87d0b9b1.chunk.js.map",
+    "runtime-main.js": "/brooklyn-m-store/static/js/runtime-main.01c96141.js",
+    "runtime-main.js.map": "/brooklyn-m-store/static/js/runtime-main.01c96141.js.map",
     "static/js/2.b459ec25.chunk.js": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js",
     "static/js/2.b459ec25.chunk.js.map": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js.map",
-    "static/js/3.0896e7a3.chunk.js": "/brooklyn-m-store/static/js/3.0896e7a3.chunk.js",
-    "static/js/3.0896e7a3.chunk.js.map": "/brooklyn-m-store/static/js/3.0896e7a3.chunk.js.map",
+    "static/js/3.625da1ee.chunk.js": "/brooklyn-m-store/static/js/3.625da1ee.chunk.js",
+    "static/js/3.625da1ee.chunk.js.map": "/brooklyn-m-store/static/js/3.625da1ee.chunk.js.map",
     "index.html": "/brooklyn-m-store/index.html",
-    "static/css/main.ecc87746.chunk.css.map": "/brooklyn-m-store/static/css/main.ecc87746.chunk.css.map",
+    "static/css/main.27471434.chunk.css.map": "/brooklyn-m-store/static/css/main.27471434.chunk.css.map",
     "static/js/2.b459ec25.chunk.js.LICENSE.txt": "/brooklyn-m-store/static/js/2.b459ec25.chunk.js.LICENSE.txt",
     "static/media/financing-image.67dd960d.jpg": "/brooklyn-m-store/static/media/financing-image.67dd960d.jpg",
     "static/media/about-landing.css": "/brooklyn-m-store/static/media/harley-davidson-background.70e5c8fb.jpg",
@@ -19,9 +19,9 @@
     "static/media/store-image.7386dd0d.jpg": "/brooklyn-m-store/static/media/store-image.7386dd0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4560cfaf.js",
+    "static/js/runtime-main.01c96141.js",
     "static/js/2.b459ec25.chunk.js",
-    "static/css/main.ecc87746.chunk.css",
-    "static/js/main.c911bb0f.chunk.js"
+    "static/css/main.27471434.chunk.css",
+    "static/js/main.87d0b9b1.chunk.js"
   ]
 }
