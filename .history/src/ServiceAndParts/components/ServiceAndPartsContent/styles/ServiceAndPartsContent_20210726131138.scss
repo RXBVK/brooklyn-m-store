@@ -14,6 +14,7 @@
     border-top: 3px solid $orange;
     button {
       width: 100%;
+      height: 50px;
       background-color: $cream;
       cursor: pointer;
       border: none;
@@ -70,13 +71,6 @@
 }
 
 @media (max-width: 1000px) {
-  .sap__content-menu {
-    flex-direction: column;
-    & > button {
-      height: 70px;
-      margin: 10px 0;
-    }
-  }
   .sap__content-content {
     flex-direction: column;
     .sap__content-content-description,
@@ -94,24 +88,15 @@
       }
     }
     .sap__contact-btn {
-      width: 60%;
+      width: 80%;
     }
   }
 }
 
 @media (min-width: 1001px) {
-  .sap__content-menu {
-    & > button {
-      height: 50px;
-    }
-  }
   .sap__content-content-description,
   .sap__content-content-contact {
     width: 50%;
-    p {
-      width: 60%;
-      font-size: 18px;
-    }
   }
   .sap__contact-btn {
     width: 30%;

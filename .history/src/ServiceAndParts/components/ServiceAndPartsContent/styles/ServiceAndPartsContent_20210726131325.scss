@@ -100,18 +100,9 @@
 }
 
 @media (min-width: 1001px) {
-  .sap__content-menu {
-    & > button {
-      height: 50px;
-    }
-  }
   .sap__content-content-description,
   .sap__content-content-contact {
     width: 50%;
-    p {
-      width: 60%;
-      font-size: 18px;
-    }
   }
   .sap__contact-btn {
     width: 30%;
